@@ -3,13 +3,13 @@
 
 #include "Rfid.hpp"
 
-class PetropointHectronics : public Rfid 
+class PetropointHectronics : public Rfid
 {
-public: 
+public:
   PetropointHectronics(HardwareSerial *serial);
-  
+
   std::string getType();
-}
+};
 
 
 #endif
