@@ -1,0 +1,14 @@
+{
+  "name": "fuelbuddy_rfid_api",
+  "keywords": "serial rs232 rfid",
+  "description": "rfid code for communicating with fuel rfid in fuelbuddy project",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/fuelbuddies/rfid-api.git"
+  },
+  "license": "Commercial",
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": ["espressif32"]
+}
