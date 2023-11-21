@@ -34,6 +34,11 @@ public:
   void serialEvent();
 
   /**
+   * flush buffer for fresh data
+   */
+  void flushBuffer();
+
+  /**
    * data has been fetched
    */
   bool isReadyToRead();

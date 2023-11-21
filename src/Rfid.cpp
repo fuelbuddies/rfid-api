@@ -60,3 +60,11 @@ String Rfid::getReadData()
   is_ready_to_read = false;
   return response;
 }
+
+/**
+ * flush buffer for fresh data
+ */
+void Rfid::flushBuffer()
+{
+  rfidSerial->flush();
+}
