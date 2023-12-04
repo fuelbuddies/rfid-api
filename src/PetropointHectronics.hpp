@@ -9,6 +9,9 @@ public:
   PetropointHectronics(HardwareSerial *serial);
 
   std::string getType();
+
+  void serialEvent();
+  String getReadData();
 };
 
 
