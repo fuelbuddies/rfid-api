@@ -30,10 +30,9 @@ String PetropointHectronics::getReadData()
       str = "0" + str;
     }
 
-    std::transform(str.begin(), str.end(), str.begin(), std::ptr_fun<int, int>(std::toupper));
     // add it to the inputString:
     serial_data = String(serial_data) + str;
-    if(str == "0A") {
+    if(str == "0A" || str == "0a") {
       break;
     }
   }
