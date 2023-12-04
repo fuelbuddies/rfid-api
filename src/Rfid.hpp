@@ -8,7 +8,7 @@
 // #endif
 #include <string>
 #include <sstream>
-#include <cstring>
+#include <functional>
 #include <iomanip>
 #include <HardwareSerial.h>
 
